@@ -1,0 +1,295 @@
+.navbar a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: gray;
+}
+
+.navbar ul {
+    margin-left: 30px;
+}
+
+.globe {
+    border-right: 1px solid rgb(202, 195, 195);
+    margin-left: 120px;
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+.btn:hover {
+    background: palevioletred;
+    color: black;
+    border: none;
+}
+
+.connect {
+    background: #FFEAEC;
+}
+
+.where h1 {
+    color: #690031;
+    font-size: 70px;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 72px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.where h4 {
+    color: #690031;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+.side {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.get button {
+    background: #690031;
+    color: #FFEAEC;
+    border: none;
+    border-radius: 100px;
+    padding: 16px 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.how button {
+    background: #FFEAEC;
+    border: 1px solid #690031;
+    border-radius: 100px;
+    color: #690031;
+    padding: 16px 32px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.see h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+.different {
+    border: 1px solid rgb(236, 230, 230);
+    border-radius: 20px;
+    margin: 30px;
+    padding: 30px 30px 0px 30px;
+}
+
+.company button {
+    background: rgb(236, 230, 230);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 100px;
+    padding: 16px 32px;
+    margin: 10px 5px;
+    border: none;
+}
+
+/* .person {
+    display: flex;
+    justify-content: space-evenly;
+} */
+
+.globex img {
+    width: 600px;
+    height: 500px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+/* .goals {
+    margin-top: 70px;
+}
+
+.goals h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 25px;
+}
+
+.goals ol {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    list-style-type: ;
+}
+
+.goals button {
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 100px;
+    padding: 16px 32px;
+    margin: 20px 5px;
+    border: 1px solid gray;
+} */
+.goals button {
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 100px;
+    padding: 16px 32px;
+    margin: 20px 50px;
+    border: 1px solid gray;
+} 
+.apart {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin: 100px 0px 50px 50px;
+    margin-left: 50px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+ .account {
+    border-top: 1px solid rgb(243, 232, 232);
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 100px;
+}
+
+.more {
+    margin-top: 70px;
+}
+
+.more h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 25px;
+}
+
+.more h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+} 
+
+.about button {
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 100px;
+    padding: 16px 32px;
+    border: 1px solid gray;
+    margin-top: 20px;
+}
+
+.team img {
+    width: 500px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.join {
+    border-top: 1px solid rgb(243, 232, 232);
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 100px;
+}
+
+.drive h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 90px 0px 25px 0px;
+}
+
+.drive h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.meet button {
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 100px;
+    padding: 16px 32px;
+    border: 1px solid gray;
+    margin-top: 20px;
+}
+
+.another img {
+    width: 500px;
+    border: none; 
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.scale {
+    border-top: 1px solid rgb(243, 232, 232);
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 100px;
+}
+
+.iso img {
+    width: 500px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.grade h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 90px 0px 25px 0px;
+}
+
+.grade h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.xplore button {
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 100px;
+    padding: 16px 32px;
+    border: 1px solid gray;
+    margin-top: 20px;
+}
+
+.over {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 100px;
+}
+
+.data h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 90px 0px 25px 0px;
+    font-size: 50px;
+}
+
+.data h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.integer button {
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 100px;
+    padding: 16px 32px;
+    border: 1px solid gray;
+    margin-top: 20px;
+}
+.star button{
+    background: #FFEAEC;
+    border: 1px solid #690031;
+    border-radius: 100px;
+    color: #690031;
+    padding: 16px 32px;
+    margin-left: 50px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
