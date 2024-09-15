@@ -8,30 +8,192 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        nav {
+            border-bottom: 1px solid rgb(218, 213, 213);
+            background: white;
+        }
 
+        .inspire h1 {
+            font-weight: 800;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            border-bottom: 11px solid red;
+            text-align: center;
+            margin-top: 70px;
+            padding-bottom: 11px;
+            font-size: 60px;
+            line-height: 43px;
+        }
+
+        .bon button {
+            background: red;
+            color: white;
+            padding: 25px;
+            border: none;
+            margin-top: 30px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .news ul {
+            color: gray;
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+            font-weight: bold;
+        }
+
+        .news a {
+            color: gray;
+            text-decoration: none;
+        }
+
+        .more button {
+            background: red;
+            color: white;
+            padding: 15px;
+            border: none;
+            border-radius: 5px;
+            margin-top: 30px;
+            font-weight: bold;
+        }
+
+        .log ul {
+            color: gray;
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+        }
+
+        .log a {
+            color: gray;
+        }
+    </style>
 </head>
 
 <body>
-    <nav class="navbar bg-body-light sticky-top"
-        style="border-bottom: 1px solid rgb(218, 213, 213); background: white;">
+    <div class="alert alert-warning alert-dismissible fade show">
+        <strong>NOTE!</strong> This is a student project not an attempt to clone existing website
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-body-light sticky-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"
-                style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; ">
+                style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 25px;">
                 <img src="flipboard.jpg" alt="Logo" width="50" height="24" class="d-inline-block align-text-top">
                 FLIPBOARD
             </a>
-            <a href="index.html" style="color: gray; text-decoration: none;">Newsletters</a>
-            <input class="btn btn-danger" type="Sign up" value="Sign up" style="padding:  5px 0px;">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" style="margin-left: 600px;
+                        color: gray;font-weight: bold;">
+                            PROJECTS
+                        </a>
+                        <ul class="dropdown-menu" style="margin-left: 600px;">
+                            <li><a class="dropdown-item" href="index.html">PROJECT ONE</a></li>
+                            <li><a class="dropdown-item" href="flipboard.html">PROJECT TWO</a></li>
+                            <li><a class="dropdown-item" href="#">PROJECT THREE</a></li>
+                            <li><a class="dropdown-item" href="#">PROJECT FOUR</a></li>
+                            <li><a class="dropdown-item" href="#">PROJECT FIVE</a></li>
+                            <li><a class="dropdown-item" href="#">PROJECT SIX</a></li>
+                            <li><a class="dropdown-item" href="#">PROJECT SEVEN</a></li>
+                            <li><a class="dropdown-item" href="#">PROJECT EIGHT</a></li>
+                        </ul>
+                    </li>
+                </ul>
 
-        </div>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"
+                        style="border: none;background-color: rgb(250, 246, 246);">
+                    <button class="btn" type="submit" style="background: red;color: white;">Signup</button>
 
+                </form>
+                <h6 style="margin-left: 30px; color: gray;">Log in</h6>
+            </div>
         </div>
     </nav>
-    <div style="line-height: 72px;">
-        <h1>Get Informed <br>
-            Get Inspired</h1>
+    <div class="container text-center">
+        <div class="inspire">
+            <h1>GET
+                INFORMED<br>
+                GET INSPIRED</h1>
+        </div>
+        <div style="text-align: center;">
+            <h3>Stories Curated for you</h3>
+        </div>
+        <div class="bon">
+            <button type="submit">Sign up</button>
+        </div> <br><br><br><br>
+        <div class="row">
+            <div class="col sticky-top">
+                <div class="news" style="border-bottom: 1px solid rgb(218, 213, 213);background: white;">
+                    <ul>
+                        <li><a href="#">NEWS</a></li>
+                        <li><a href="#">ENTERTAINMENT</a></li>
+                        <li><a href="#">TECHNOLOGY</a></li>
+                        <li><a href="#">TRAVEL</a></li>
+                        <li><a href="#">FOOD</a></li>
+                        <li><a href="#">SPORTS</a></li>
+                        <li><a href="#">FLIPBOARD TV</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container text-center">
+            <div class="row align-items-start">
+                <div class="col">
+                    <img src="kids.png" alt="kids" width="300px">
+                </div>
+                <div class="col">
+                    <img src="kids.png" alt="kids" width="300px">
+                </div>
+                <div class="col">
+                    <img src="kids.png" alt="kids" width="300px">
+                </div>
+                <div class="col">
+                    <img src="kids.png" alt="kids" width="300px">
+                </div>
+                <div class="col">
+                    <img src="kids.png" alt="kids" width="300px">
+                </div>
+                <div class="col">
+                    <img src="kids.png" alt="kids" width="300px">
+                </div>
+                <div class="col">
+                    <img src="kids.png" alt="kids" width="300px">
+                </div>
+                <div class="col">
+                    <img src="kids.png" alt="kids" width="300px">
+                </div>
+                <div class="col">
+                    <img src="kids.png" alt="kids" width="300px">
+                </div>
+            </div>
+        </div>
+        <div class="more">
+            <button type="submit">Read more</button>
+        </div><br><br><br>
+        <div class="log">
+            <ul>
+                <li><a href="#">Log in</a></li>
+                <li><a href="#">Newsletters</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Tools</a></li>
+                <li><a href="#">Publishers</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Do Not Sell My Info</a></li>
+                <li><a href="#">Sitemap</a></li>
+            </ul> <br>
+            <h3 style="font-size: 15px;color: gray;text-decoration: underline;">&copy;2024 Flipboard</h3>
+        </div>
     </div>
-
 
 
 
